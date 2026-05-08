@@ -137,6 +137,12 @@ document.addEventListener('DOMContentLoaded', async function() {
     // createElement so they execute, awaiting onload for src scripts to
     // preserve ordering (React before ReactDOM before Babel before text/babel).
     const doc = new DOMParser().parseFromString(template, 'text/html');
+    // The bundle's <head> doesn't carry GT Walsheim Pro @font-face rules,
+    // so re-inject the shared Riparide stylesheet into the parsed doc.
+    const fontLink = doc.createElement('link');
+    fontLink.rel = 'stylesheet';
+    fontLink.href = 'https://assets.riparide.com/marketing/email/assets/stylesheets/gt-walsheim-pro.css';
+    doc.head.appendChild(fontLink);
     document.documentElement.replaceWith(doc.documentElement);
     const dead = Array.from(document.scripts);
     for (const old of dead) {
