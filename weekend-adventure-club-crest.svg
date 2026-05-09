@@ -16,6 +16,7 @@
     <rect x="0" y="0" width="320" height="320" fill="#FFF5F0"></rect>
     <circle cx="178" cy="140" r="34" fill="#FEC077"></circle>
     <path d="M -20 320 L -20 218 L 60 178 L 110 200 L 178 118 L 246 198 L 320 222 L 320 320 Z" fill="#0c6776"></path>
+    <path d="M 158 138 L 178 118 L 198 138 L 190 142 L 184 138 L 178 144 L 170 138 L 164 142 Z" fill="#F9F5F2"></path>
     <path d="M -20 320 L -20 250 L 30 220 L 80 244 L 130 218 L 178 246 L 230 220 L 280 240 L 320 224 L 320 320 Z" fill="#0c393f"></path>
   </g>
 
