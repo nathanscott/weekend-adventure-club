@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <defs>
+    <path id="crest-top-arc" fill="none" d="M 44 160 A 116 116 0 0 1 276 160"></path>
+    <path id="crest-bot-arc" fill="none" d="M 39 165 A 121 121 0 0 0 281 165"></path>
+    <clipPath id="crest-clip"><circle cx="160" cy="160" r="105"></circle></clipPath>
+  </defs>
+
+  
+  <circle cx="160" cy="160" r="143" fill="#F9F5F2" stroke="#0c393f" stroke-width="3"></circle>
+  <circle cx="160" cy="160" r="137" fill="none" stroke="#0c393f" stroke-width="1"></circle>
+  <circle cx="160" cy="160" r="105" fill="none" stroke="#0c393f" stroke-width="2"></circle>
+
+  
+  <g clip-path="url(#crest-clip)">
+    <rect x="0" y="0" width="320" height="320" fill="#FFF5F0"></rect>
+    <circle cx="178" cy="140" r="34" fill="#FEC077"></circle>
+    <path d="M -20 320 L -20 218 L 60 178 L 110 200 L 178 118 L 246 198 L 320 222 L 320 320 Z" fill="#0c6776"></path>
+    <path d="M -20 320 L -20 250 L 30 220 L 80 244 L 130 218 L 178 246 L 230 220 L 280 240 L 320 224 L 320 320 Z" fill="#0c393f"></path>
+  </g>
+
+  
+  <text fill="#0c393f" font-size="16" font-weight="600" letter-spacing="2.2" font-family="Albert Sans, system-ui, sans-serif">
+    <textPath href="#crest-top-arc" startOffset="50%" text-anchor="middle" textLength="320" lengthAdjust="spacingAndGlyphs">
+      WEEKEND · ADVENTURE · CLUB
+    </textPath>
+  </text>
+  <text fill="#0c393f" font-size="14" font-weight="600" letter-spacing="2.4" font-family="Albert Sans, system-ui, sans-serif">
+    <textPath href="#crest-bot-arc" startOffset="50%" text-anchor="middle" textLength="240" lengthAdjust="spacingAndGlyphs">
+      ★ · · · EST · 2026 · · · ★
+    </textPath>
+  </text>
+
+  
+  <circle cx="50" cy="160" r="2.5" fill="#0c393f"></circle>
+  <circle cx="270" cy="160" r="2.5" fill="#0c393f"></circle>
+</svg>
